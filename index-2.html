@@ -1,0 +1,136 @@
+<html ng-app='myApp'>
+<head>
+  <title>Bulktix</title> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
+  <link rel="stylesheet" href="css/colors.css" />
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="container-fluid"> <!-- contains the entire app -->
+    <div class="row-fluid"> <!-- this row's purpose is to seperate the container into two parts: main content and shopping cart/sidebar -->
+      <div class="main-content span9">
+        <div class="row-fluid header"> <!-- this is the section that will contain the logo -->
+          <h1>Bulk<span>Tix</span></h1>
+          <h2>Bigger. Better. Stronger.</h2>
+          <h5>showing theaters near hopkinton</h5>
+        </div> <!-- end header -->
+        <div class="row-fluid sub-header">
+          <div class="span4"></div> <!-- for centering zip code -->
+          <div class="span4 search-field">
+            <input type="text" placeholder="Enter Zip Code" class="span9">
+            <button type="submit" class="btn btn-info">Find Theaters</button>
+          </div>
+          <div class="span4"></div> <!-- for centering zip code -->
+        </div> <!-- end sub-header -->
+        <div class="content-section">
+          <div class="row-fluid content-listing"> <!-- this is the first row single listing -->
+            <div class='span6 item'><!--  first item -->
+              <div class="span4 logo-section"> <!-- this is the logo section -->
+                <div class='img-wrapper'>
+                  <img src="./img/amc_logo.jpg" id='amc-logo'>
+                </div>
+              </div>
+              <div class='span8 item-description'>
+                <div class='row-fluid tckt-option'>
+                  <p class='span5 only-option'><a>&#9432;</a>Gold ticket</p>
+                  <p class='amount span3'>$50.00</p>
+                  <input type="text" class="quantity span4">
+                </div> <!-- end first ticket option -->
+                <div class='row-fluid tckt-option'>
+                  <p class='span5'><a>&#9432;</a>Silver ticket</p>
+                  <p class='amount span3'>$25.00</p>
+                  <input type="text" class="quantity span4">
+                </div><!-- end second ticket option -->
+                <div class='row-fluid centered-btn-wrapper'> <!-- this row centers the upddate button -->
+                  <div class="span4"></div>
+                  <button type="submit" class="btn btn-info span4">update cart</button>
+                  <div class="span4"></div>
+                </div>
+              </div>  <!-- span8, item description -->
+            </div> <!-- end first item -->
+            <div class='span6 item'><!--  second item -->
+              <div class="span4 logo-section"> <!-- this is the logo section -->
+                <div class='img-wrapper'>
+                  <img src="./img/amc_logo.jpg" id='amc-logo'>
+                </div>
+              </div>
+              <div class='span8 item-description'>
+                <div class='row-fluid tckt-option'>
+                  <p class='span5 only-option'><a>&#9432;</a>Gold ticket</p>
+                  <p class='amount span3'>$50.00</p>
+                  <input type="text" class="quantity span4">
+                </div> <!-- end first ticket option -->
+                <div class='row-fluid tckt-option'>
+                  <p class='span5'><a>&#9432;</a>Silver ticket</p>
+                  <p class='amount span3'>$25.00</p>
+                  <input type="text" class="quantity span4">
+                </div><!-- end second ticket option -->
+                <div class='row-fluid centered-btn-wrapper'> <!-- this row centers the upddate button -->
+                  <div class="span4"></div>
+                  <button type="submit" class="btn btn-info span4">update cart</button>
+                  <div class="span4"></div>
+                </div>
+              </div>  <!-- span8, item description -->
+            </div> <!-- end second item -->
+          </div> <!-- end first rowcontent listing -->
+          <div class="row-fluid content-listing"> <!-- this is the second row single listing -->
+            <div class='span6 item'><!--  first item -->
+              <div class="span4 logo-section"> <!-- this is the logo section -->
+                <div class='img-wrapper'>
+                  <img src="./img/amc_logo.jpg" id='amc-logo'>
+                </div>
+              </div>
+              <div class='span8 item-description'>
+                <div class='row-fluid tckt-option'>
+                  <p class='span5 only-option'><a>&#9432;</a>Gold ticket</p>
+                  <p class='amount span3'>$50.00</p>
+                  <input type="text" class="quantity span4">
+                </div> <!-- end first ticket option -->
+                <div class='row-fluid tckt-option'>
+                  <p class='span5'><a>&#9432;</a>Silver ticket</p>
+                  <p class='amount span3'>$25.00</p>
+                  <input type="text" class="quantity span4">
+                </div><!-- end second ticket option -->
+                <div class='row-fluid centered-btn-wrapper'> <!-- this row centers the upddate button -->
+                  <div class="span4"></div>
+                  <button type="submit" class="btn btn-info span4">update cart</button>
+                  <div class="span4"></div>
+                </div>
+              </div>  <!-- span8, item description -->
+            </div> <!-- end first item -->
+            <div class='span6 item'><!--  second item -->
+              <div class="span4 logo-section"> <!-- this is the logo section -->
+                <div class='img-wrapper'>
+                  <img src="./img/amc_logo.jpg" id='amc-logo'>
+                </div>
+              </div>
+              <div class='span8 item-description'>
+                <div class='row-fluid tckt-option'>
+                  <p class='span5 only-option'><a>&#9432;</a>Gold ticket</p>
+                  <p class='amount span3'>$50.00</p>
+                  <input type="text" class="quantity span4">
+                </div> <!-- end first ticket option -->
+                <div class='row-fluid tckt-option'>
+                  <p class='span5'><a>&#9432;</a>Silver ticket</p>
+                  <p class='amount span3'>$25.00</p>
+                  <input type="text" class="quantity span4">
+                </div><!-- end second ticket option -->
+                <div class='row-fluid centered-btn-wrapper'> <!-- this row centers the upddate button -->
+                  <div class="span4"></div>
+                  <button type="submit" class="btn btn-info span4">update cart</button>
+                  <div class="span4"></div>
+                </div>
+              </div>  <!-- span8, item description -->
+            </div> <!-- end second item -->
+          </div> <!-- end second rowcontent listing -->
+        </div> <!-- end content-section -->
+      </div> <!-- end main content section -->
+      <div class="sidebar-content span3">
+        
+      </div>
+    </div>
+  </div>
+</body>
