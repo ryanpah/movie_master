@@ -1,0 +1,58 @@
+input[type="text"] {
+  margin: 0;
+}
+/*
+.main-content {
+  background-color: #ddd;
+}
+
+.shopping-cart {
+  background-color: #aaa;
+}
+
+.main-content .span6 {
+  background-color: #3498db;
+}*/
+
+h1,h2,h3,h4,h5,h6,p {
+  text-align: center;
+}
+
+h5 {
+  color: #3498db;
+}
+
+.quantity {
+  width: 30px;
+}
+
+
+.theater-logo{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+.item-description {
+  padding:10px 5px;
+}
+
+
+#amc-logo {
+  width:150px;
+
+}
+
+.img-wrapper {
+  background-color: #fff;
+  width: 100%;
+  height:150px;
+}
+
+.content-row {
+  margin: 10px;
+}
+
+#shopping-cart {
+  
+}
